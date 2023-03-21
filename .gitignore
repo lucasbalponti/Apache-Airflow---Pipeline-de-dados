@@ -1,3 +1,7 @@
+# pastas criadas pelas tasks dos dags
+runs
+exportacoes_dados_climaticos
+
 # Airflow configuration
 airflow.cfg
 unittests.cfg
