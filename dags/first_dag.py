@@ -14,7 +14,7 @@ with DAG(
     tarefa_3 = EmptyOperator(task_id = 'tarefa_3')
     tarefa_4 = BashOperator(
         task_id = 'cria_pasta',
-        bash_command = 'mkdir -p "/home/lucasbalponti/Documents/airflowalura/dags/first_dag.py/pasta"'
+        bash_command = 'mkdir -p "/home/lucasbalponti/Documents/airflowalura/dags/pasta"'
     )
 
     tarefa_1 >> [tarefa_2, tarefa_3]
